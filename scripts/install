@@ -22,8 +22,8 @@ INSTALL_DOCKER_COMPOSE="true"
 INSTALL_START_SCRIPT="true"
 INSTALL_UMBREL="true"
 AUTO_START_UMBREL="true"
-UMBREL_VERSION="release"
-UMBREL_REPO="getumbrel/umbrel"
+UMBREL_VERSION="v0.5.4"
+UMBREL_REPO="Monikaya/umbrel"
 UMBREL_INSTALL_PATH="$HOME/umbrel"
 
 # Parse arguments
