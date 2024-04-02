@@ -5,7 +5,7 @@ VERSION="0.0.2"
 
 UMBREL_ROOT="$(readlink -f $(dirname "${BASH_SOURCE[0]}")/..)"
 USER_FILE="${UMBREL_ROOT}/db/user.json"
-DEFAULT_UMBREL_APP_REPO_URL="https://github.com/getumbrel/umbrel-apps.git"
+DEFAULT_UMBREL_APP_REPO_URL="https://github.com/Monikaya/umbrel-apps.git"
 
 show_help() {
   cat << EOF

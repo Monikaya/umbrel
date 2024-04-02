@@ -1,18 +1,18 @@
 /* eslint-disable id-length */
 
 function readFromEnvOrTerminate(key) {
-	const value = process.env[key];
+  const value = process.env[key];
 
-	if(typeof(value) !== "string" || value.trim().length === 0) {
-		console.error(`The env. variable '${key}' is not set. Terminating...`);
+  if (typeof (value) !== "string" || value.trim().length === 0) {
+    console.error(`The env. variable '${key}' is not set. Terminating...`);
 
-		process.exit(0);
-	}
+    process.exit(0);
+  }
 
-	return value;
+  return value;
 }
 
-const DEFAULT_UMBREL_APP_REPO_URL = 'https://github.com/getumbrel/umbrel-apps.git';
+const DEFAULT_UMBREL_APP_REPO_URL = 'https://github.com/Monikaya/umbrel-apps.git';
 
 module.exports = {
   REQUEST_CORRELATION_NAMESPACE_KEY: 'umbrel-manager-request',
